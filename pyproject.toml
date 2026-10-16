@@ -1,0 +1,10 @@
+[project]
+name = "pydantictest"
+version = "0.1.0"
+description = "Pydantic AI deep research agent"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic-ai-slim[duckduckgo,web-fetch,openai]",
+    "python-dotenv",
+    "gradio>=6.7.0",
+]
